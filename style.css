@@ -98,4 +98,21 @@ header nav a {
   margin: 10px;
   border-radius: 29px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Formulario {
+  background-color: #f1f8e9;
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 70px;
+}
+.Formulario h2 {
+  font-size: 48px;
+}
+.Formulario .dados {
+  margin-top: 50px;
+}
+.Formulario p {
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
