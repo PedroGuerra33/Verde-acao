@@ -93,7 +93,7 @@ header nav a {
 .card button {
   background-color: #66BB6A;
   color: #ffffff;
-  padding: 10px 30px;
+  padding: px 30px;
   border: none;
   margin: 10px;
   border-radius: 29px;
@@ -102,10 +102,30 @@ header nav a {
 
 .Formulario {
   background-color: #f1f8e9;
-  height: 50vh;
+  height: 80vh;
   width: 100%;
   text-align: center;
   padding-top: 70px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.Formulario p {
+  font-size: 28px;
+  width: 50%;
+  margin-left: 490px;
+}
+.Formulario .caixa {
+  height: 3vh;
+  width: 30%;
+  border-radius: 15px;
+  border: none;
+}
+.Formulario .perguntas {
+  font-size: 18px;
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  margin-left: 670px;
+  margin-top: 30px;
 }
 .Formulario h2 {
   font-size: 48px;
@@ -115,4 +135,27 @@ header nav a {
 }
 .Formulario p {
   margin-top: 30px;
+}
+
+button {
+  background-color: #66BB6A;
+  color: #ffffff;
+  height: 4vh;
+  width: 20%;
+  border: none;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+footer {
+  background-color: #66BB6A;
+  color: #ffffff;
+  text-align: center;
+  height: 10vh;
+  padding-top: 45px;
+  font-size: 24px;
+}
+
+.no-padding {
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
